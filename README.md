@@ -9,7 +9,7 @@ This thing does stuff
 This script was tested on My System, using Python 3.11 or something
 
 ### Installation
-Clone this repo: `git clone `
+Clone this repo: `git clone https://github.com/4a6166/Crowdfunding_ETL.git`
 
 ### How to Run
 Run it by opening the program
