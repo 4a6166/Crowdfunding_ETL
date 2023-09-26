@@ -48,7 +48,7 @@ Category Table
 ![Category Table](snapshots/category_table.png)
 
 Contact Table
-![Contact Table](snapshots/Contact_table.png)
+![Contact Table](snapshots/contact_table.png)
 
 Subcategory Table
 ![Subcategory Table](snapshots/subcategory_table.png)
