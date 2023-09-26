@@ -24,24 +24,34 @@ pgadmin4 7.6
 To clone this repo, use the following command: `git clone https://github.com/4a6166/Crowdfunding_ETL.git`
 
 ### How to Run
-Input files are located in the <Resources> directory:
+Input files are located in the [Resources](Resources) directory:
 - contacts.xlsx
 - crowdfunding.xlsx
 
 The [notebook file](ETL_Mini_Project_JField_RMatsui_HWhang.ipynb) may be examined using Jupyter Notebook or Lab, VSCode, or Github's Jupyter viewer.
 
-To generate the database, create a database and use <crowdfunding_db_schema.sql> to create the tables.
+To generate the database, create a database and use [crowdfunding_db_schema.sql](crowdfunding_db_schema.sql) to create the tables.
 CSV files were generated from the Jupyter Notebooks.
 The files may be loaded into the respective tables using psql commands (ex: `psql -c "\copy campaign FROM '/Resources/campaign.csv' delimiter ',' csv"`) or pgAdmin.
 
 ### Output
 The [notebook file](ETL_Mini_Project_JField_RMatsui_HWhang.ipynb) runs the E and T parts of ETL.
-It outputs four CSVs, which are located in the <Resources> directory.
+It outputs four CSVs, which are located in the [Resources](Resources) directory.
 
-The <crowdfunding_db_schema.sql> file may be used to generate a database with PostgreSQL.
+The [crowdfunding_db_schema.sql](crowdfunding_db_schema.sql) file may be used to generate a database with PostgreSQL.
 Screenshots of the database are below:
 
-![screenshots optional]
+Campaign Table
+![Campaign Table](snapshots/campaign_table.png)
+
+Category Table
+![Category Table](snapshots/category_table.png)
+
+Contact Table
+![Contact Table](snapshots/Contact_table.png)
+
+Subcategory Table
+![Subcategory Table](snapshots/subcategory_table.png)
 
 ## Credits
 This project was a collaboration between Jacob Field, Sung Im (Hannah) Whang, and Ryodai (Peter) Matsui.
